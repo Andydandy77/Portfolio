@@ -72,8 +72,12 @@
     delay: 400,
     scale: 0
   });
+  sr.reveal('.sr-contact-3', {
+    delay: 600,
+    scale: 0
+  });
 
-  // Magnific popup calls
+ // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',

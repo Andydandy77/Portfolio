@@ -210,6 +210,8 @@ img {
   border-style: none;
 }
 
+
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -479,8 +481,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width:488.3px;
+  height:300px;
 }
 
 .img-thumbnail {
