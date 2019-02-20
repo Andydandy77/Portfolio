@@ -45,13 +45,39 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" href="#resume">Resume</a>
+              </li>
+
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Modal -->
+<div id="resume" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
 
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
@@ -74,13 +100,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About Me</h2>
+            <h2 class="section-heading text-white" id = "aboutHeader">About Me</h2>
 
 
-            <img style="height:50%; width: 50%;" id = "face" src="img/portfolio/fullsize/face.jpg">
+            <img style="height:50%; width: auto;" id = "face" src="img/portfolio/fullsize/face.jpg">
             <hr class="light my-4">
-            <p class="text-white mb-4">Transitioning from the semiconductor industry with a Bachelors of Science in Electrical Engineering and a strong background in object oriented programming, I aim to become a software engineer focusing in full stack development. As a passionate and unrelenting student, I am currently enrolled in UW’s Coding Bootcamp, 
-              learning the MERN development stack, all while working as a full time electrical engineer. I quickly pick up new frameworks and libraries and do not hesitate to efficiently apply them. I have a passion for efficient back-end applications and algorithms!</p>
+            <p class="text-white mb-4">Hello! I currently work at Cypress Semiconductor as an analog design engineer, but I have great interest in software applications and web development. 
+              I am proficient in Java and JavaScript and have a working knowledge of C and Python. I have experience building several full stack applications using MongoDB,
+               Express, React, and Node, from concept to deployment and have experience developing mobile apps using React Native. I have strong interest in learning about the following areas: Deep Learning, Game Development, Cloud technologies, Microservices, and Blockchain.  </p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Check out my Skills!</a>
           </div>
         </div>
@@ -89,6 +116,8 @@
 
     <section id="services">
       <div class="container">
+          <img src = "img/portfolio/thumbnails/mernstack.png">
+<!-- 
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">My Full Stack</h2>
@@ -126,7 +155,7 @@
               <p class="text-muted mb-0">Node is the glue that holds all of my applications together</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
